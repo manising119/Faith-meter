@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Faith</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<main class="container">
+  <h1>Faith</h1>
+  <p class="subtitle">starts small, grows honestly.</p>
+
+  <div class="meter">
+    <div class="fill" id="fill"></div>
+    <input
+      type="range"
+      min="10"
+      max="100"
+      step="10"
+      value="10"
+      id="slider"
+      class="slider"
+    />
+  </div>
+
+  <p class="label" id="label">Pre-faith</p>
+  <p class="percentage" id="percentage">10%</p>
+
+  <!-- Message appears after interaction -->
+  <p class="message" id="faithMessage">
+    Faith can’t be earned overnight.<br/>
+    It takes time to build.<br/>
+    I’m slowly trying to get to know you better,<br/>
+    making you feel comfortable,<br/>
+    and putting in genuine effort — one step at a time.
+  </p>
+
+  <p class="footer">
+    No rush. No pressure.<br/>
+    Just honesty.
+  </p>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
